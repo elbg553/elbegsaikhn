@@ -1,0 +1,80 @@
+div{
+    background-color: aqua;
+    height: 50px;
+    width: 400px;
+    border: 1px;
+    border-color: rgb(0, 255, 0);
+    border: solid;
+}
+.qwe1:hover{
+    height: 100px;
+    width: 450px;
+    background-color: orange;
+    transition-delay: 0.2s;
+    transition-duration: 2s;
+    transition-property: all;
+}
+.qwe2:hover{
+    height: 100px;
+    width: 450px;
+    background-color: orange;
+    transition-delay: 0.2s;
+    transition-duration: 2s;
+    transition-property: all;
+}
+.qwe3:hover{
+    height: 100px;
+    width: 450px;
+    background-color: orange;
+    transition-delay: 0.2s;
+    transition-duration: 2s;
+    transition-property: all;
+}
+.qwe4:hover{
+    height: 100px;
+    width: 450px;
+    background-color: orange;
+    transition-delay: 0.2s;
+    transition-duration: 2s;
+    transition-property: all;
+}
+h4{
+    font-size: 16px;
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+}
+h3{
+    font-size: 16px;
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+}
+h2{
+    font-size: 16px;
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+}
+h1{
+    font-size: 16px;
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+}
+h1:active{
+    font-size: 28px;
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+}
+h2:active{
+    font-size: 28px;
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+}
+h3:active{
+    font-size: 28px;
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+}
+h4:active{
+    font-size: 28px;
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+}
