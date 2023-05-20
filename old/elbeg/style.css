@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Ubuntu:wght@300&display=swap');
+.aaaa2{
+    border: 1.5px solid black; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    height: 300px;
+    width: 300px;
+    font-weight: 500;
+    box-shadow: 5px 6px rgb(75, 65, 65);
+    text-shadow: 1px 1px #494848;
+}
+.aaaa{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 64px;
+    text-shadow: #494848 2px 2px;
+}
+img{
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
