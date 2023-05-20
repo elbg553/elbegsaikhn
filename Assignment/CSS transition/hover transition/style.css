@@ -1,0 +1,30 @@
+div{
+    height: 100px;
+    width: 100px;  
+    margin-top: 50px;
+}
+.green{
+    background-color: green;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}
+.blue{
+    background-color: blue;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+.green:hover{
+    width: 100%;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+.blue:active{
+    width: 100%;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
