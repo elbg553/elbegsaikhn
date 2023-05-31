@@ -1,0 +1,77 @@
+.container{
+    height: 500px;
+    width: 600px;
+    border: 1px solid black;
+    position: absolute;
+}
+.kid1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50px; 
+    position: absolute;
+    left: 250px; 
+    top: 200px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;        
+}
+.kid2{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+    left: 250px;
+    top: 200px; 
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;   
+}
+.kid3{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+    left: 250px;
+    top: 200px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.container:hover .kid3{
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.container:hover .kid2{
+    top: 400px;
+    left: 500px;
+    position: absolute;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.container:hover .kid1{
+    top: 0;
+    left: 500px;
+    position: absolute;
+    background-color: orange;
+    border-radius: 0;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
